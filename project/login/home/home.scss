@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: gray;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    padding: 30px 0;
+    text-decoration: none;
+    font-weight: 800;
+}
+ul li >a{
+    text-decoration: none;
+    color: white;
+}
+ul li:hover a{
+    color: tomato;
+}
+.container{
+    width:85%;
+    margin: auto;
+}
+
+.user{
+    width: 500px;
+    h3{
+        color:blue;
+    }
+    h5{
+        color:green;
+    }
+    button{
+        width: 100px;
+        height: 30px;
+        color: white;
+        background-color: gray;
+        border: none;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+}
